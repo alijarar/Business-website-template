@@ -48,12 +48,11 @@ class ProjectSlider extends Component{
 
         return(
             <div>
-               {/*====================  project slider area ====================*/}
+               {/* ====================  project slider area ====================*/}
                 <div className="project-slider-area grey-bg section-space--inner--120">
                 <div className="container">
                     <div className="row">
                     <div className="col-lg-12">
-                        {/* section title */}
                         <div className="section-title-area text-center">
                             <h2 className="section-title section-space--bottom--50">Latest Projects <span className="title-icon" /></h2>
                         </div>
@@ -72,7 +71,7 @@ class ProjectSlider extends Component{
                     </div>
                 </div>
             </div>
-            {/*====================  End of project slider area  ====================*/}
+            {/*====================  End of project slider area  ==================== */}
             </div>
         )
     }

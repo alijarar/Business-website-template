@@ -16157,7 +16157,7 @@ print {
     font-style: normal;
     font-weight: 400;
     src: url(/media/Flaticon.82f352cdfc7ea14e8c6d.eot);
-    src: url(/media/Flaticon.82f352cdfc7ea14e8c6d.eot) format("embedded-opentype"), url(/media/Flaticon.3b6441086edd7f5f81cb.woff) format("woff"), url(/media/Flaticon.6d4b8d5f65ca311b58f4.ttf) format("truetype"), url(/media/Flaticon.2e9590c68435d1a608a8.svg#Flaticon) format("svg")
+    src: url(/media/Flaticon.82f352cdfc7ea14e8c6d.eot) format("embedded-opentype"), url(/media/t3b6441086edd7f5f81cb.woff) format("woff"), url(/media/Flaticon.6d4b8d5f65ca311b58f4.ttf) format("truetype"), url(/media/Flaticon.2e9590c68435d1a608a8.svg#Flaticon) format("svg")
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -16188,9 +16188,9 @@ print {
     content: ""
 }
 
-.flaticon-002-welding:before {
+/* .flaticon-002-welding:before {
     content: ""
-}
+} */
 
 .flaticon-003-waste:before {
     content: ""
@@ -21261,6 +21261,9 @@ print {
 
 .ion-ios-arrow-left:before {
     content: ""
+    /* content: url("../public//assets//svg/down-arrow.svg");
+    width: 24px; Set the desired width
+  height: 24px; Set the desired height */
 }
 
 .ion-ios-arrow-right:before {
@@ -33323,7 +33326,6 @@ only screen and (min-width:992px)and (max-width:1199px) {
 }
 
 .header-navigation__nav nav>ul>li.has-children>a:after {
-    content: "";
     font-family: Ionicons;
     font-size: 8px;
     font-weight: 500;
@@ -34963,7 +34965,7 @@ button.scroll-top.show {
 .hero-slider__single-item {
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     width: 100vw !important
 }
 

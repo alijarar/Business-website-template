@@ -283,6 +283,24 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-2.0.1.tgz"
   integrity sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==
 
+"@ionic/core@7.5.5":
+  version "7.5.5"
+  resolved "https://registry.npmjs.org/@ionic/core/-/core-7.5.5.tgz"
+  integrity sha512-7Rn3OUz8QCob7yMuCLs5dVLpChscNCm+OqH8lqTzy3N/8VSKHLNPHIHTIa4DQm9HwjtpOB+XCTeIqbdWHkLgnA==
+  dependencies:
+    "@stencil/core" "^4.7.2"
+    ionicons "^7.2.1"
+    tslib "^2.1.0"
+
+"@ionic/react@^7.5.5":
+  version "7.5.5"
+  resolved "https://registry.npmjs.org/@ionic/react/-/react-7.5.5.tgz"
+  integrity sha512-OcuTMinb7+HedD7dSQXxMKRct1MNK9Jzszoxi25JI0Iues/mKB0DPJyMe0ICyQdS2ualfin8I2FClHBSjPYBoQ==
+  dependencies:
+    "@ionic/core" "7.5.5"
+    ionicons "^7.0.0"
+    tslib "*"
+
 "@jridgewell/gen-mapping@^0.3.0", "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
   resolved "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz"
@@ -353,6 +371,11 @@
   version "4.5.0"
   resolved "https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.5.0.tgz"
   integrity sha512-L0/CA5p/idVKI+c9PcAPGorH6CwXn6+J0Ys7Gg1axCbTPgI8MeMlhA6fLM9fK+ssFhqogMHFC8HDvZuetOii7w==
+
+"@stencil/core@^4.0.3", "@stencil/core@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.npmjs.org/@stencil/core/-/core-4.7.2.tgz"
+  integrity sha512-sPPDYrXiTbfeUF5CCyfqysXK/yfTHC4xYR1+nHzGkS2vhRSBOLp0oPuB+xkJLKA+K2ZqDJUxpOnDxy1CLWwBXA==
 
 "@types/babel__core@^7.20.4":
   version "7.20.4"
@@ -1317,6 +1340,13 @@ internal-slot@^1.0.5:
     hasown "^2.0.0"
     side-channel "^1.0.4"
 
+ionicons@^7.0.0, ionicons@^7.2.1:
+  version "7.2.1"
+  resolved "https://registry.npmjs.org/ionicons/-/ionicons-7.2.1.tgz"
+  integrity sha512-2pvCM7DGVEtbbj48PJzQrCADCQrqjU1nUYX9l9PyEWz3ZfdnLdAouqwPxLdl8tbaF9cE7OZRSlyQD7oLOLnGoQ==
+  dependencies:
+    "@stencil/core" "^4.0.3"
+
 is-array-buffer@^3.0.1, is-array-buffer@^3.0.2:
   version "3.0.2"
   resolved "https://registry.npmjs.org/is-array-buffer/-/is-array-buffer-3.0.2.tgz"
@@ -1818,7 +1848,7 @@ react-countup@^6.5.0:
   dependencies:
     countup.js "^2.8.0"
 
-"react-dom@^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react-dom@^17.0.0 || ^18.2.0", react-dom@^18.2.0, react-dom@>=16.0.0, react-dom@>=16.6.0, react-dom@>=16.8:
+"react-dom@^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react-dom@^17.0.0 || ^18.2.0", react-dom@^18.2.0, react-dom@>=16.0.0, react-dom@>=16.6.0, react-dom@>=16.8, react-dom@>=16.8.6:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
@@ -1898,7 +1928,7 @@ react-visibility-sensor@^5.1.1:
   dependencies:
     prop-types "^15.7.2"
 
-"react@^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.2.0", react@^18.0.0, react@^18.2.0, "react@>= 16.3.0", react@>=16.0.0, react@>=16.6.0, react@>=16.8:
+"react@^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.2.0", react@^18.0.0, react@^18.2.0, "react@>= 16.3.0", react@>=16.0.0, react@>=16.6.0, react@>=16.8, react@>=16.8.6:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
@@ -2169,6 +2199,11 @@ to-fast-properties@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-2.0.0.tgz"
   integrity sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==
+
+tslib@*, tslib@^2.1.0:
+  version "2.6.2"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
+  integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"

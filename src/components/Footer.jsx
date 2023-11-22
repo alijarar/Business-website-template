@@ -58,23 +58,23 @@ class Footer extends Component {
                         <div className="footer-logo">
                           <a href={`/home-one`}>
                             <img
-                              src="assets/img/logo/logo-light.png"
+                              src="assets/img/logo/logo-no-background.png"
                               className="img-fluid"
                               alt=""
                             />
                           </a>{" "}
                         </div>{" "}
-                        <div className="footer-desc">
+                        {/* <div className="footer-desc">
                           Lorem ipsum dolor sit amet consect adipisici elit, sed
                           do eiusmod tempor incididuk ut labore et dolore magna
                           aliqua Ut enim{" "}
-                        </div>{" "}
+                        </div>{" "} */}
                       </div>{" "}
                     </div>{" "}
                     <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                       {" "}
                       {/* footer widget */}{" "}
-                      <div className="footer-widget">
+                      {/* <div className="footer-widget">
                         <h4 className="footer-widget__title"> USEFUL LINKS </h4>{" "}
                         <ul className="footer-widget__navigation">
                           <li>
@@ -100,7 +100,7 @@ class Footer extends Component {
                             </a>{" "}
                           </li>{" "}
                         </ul>{" "}
-                      </div>{" "}
+                      </div>{" "} */}
                     </div>{" "}
                     <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                       {" "}
@@ -109,30 +109,25 @@ class Footer extends Component {
                         <h4 className="footer-widget__title"> USEFUL LINKS </h4>{" "}
                         <ul className="footer-widget__navigation">
                           <li>
-                            <a href={`/`}>
-                              Our Services{" "}
+                            <a href={`/`}> Home </a>{" "}
+                          </li>{" "}
+                          <li>
+                            <a href={`/about-us`}>
+                              About{" "}
                             </a>{" "}
                           </li>{" "}
                           <li>
-                            <a href={`/`}>
+                            <a href={`/services`}>
                               {" "}
-                              Showcase{" "}
+                              Services{" "}
                             </a>{" "}
                           </li>{" "}
+                          {/* <li>
+                            <a href={`/`}> Careers </a>{" "}
+                          </li>{" "} */}
                           <li>
                             <a href={`/`}>
-                              {" "}
-                              Affliates{" "}
-                            </a>{" "}
-                          </li>{" "}
-                          <li>
-                            <a href={`/`}>
-                              Disclaimer{" "}
-                            </a>{" "}
-                          </li>{" "}
-                          <li>
-                            <a href={`/`}>
-                              Privacy Policy{" "}
+                              Contact Us{" "}
                             </a>{" "}
                           </li>{" "}
                         </ul>{" "}
@@ -145,17 +140,17 @@ class Footer extends Component {
                         <h4 className="footer-widget__title"> CONTACT US </h4>{" "}
                         <div className="footer-widget__content">
                           <p className="address">
-                            Your address goes here, street Crossroad123.{" "}
+                          Office 406, Al Baraha JESCO, DUBAI-UAE.{" "}
                           </p>{" "}
                           <ul className="contact-details">
                             <li>
-                              <span> P: </span>99 55 66 88 526{" "}
+                              <span> P: </span>+971 52 551924741{" "}
                             </li>{" "}
-                            <li>
+                            {/* <li>
                               <span> F: </span>55 44 77 62{" "}
-                            </li>{" "}
+                            </li>{" "} */}
                             <li>
-                              <span> E: </span>cons@email.com{" "}
+                              <span> E: </span>Walidcargo70@gmail.com{" "}
                             </li>{" "}
                           </ul>{" "}
                         </div>{" "}
@@ -168,10 +163,10 @@ class Footer extends Component {
           </div>{" "}
           <div className="footer-copyright-wrapper">
             <div className="footer-copyright text-center">
-              <p className="copyright-text">
-                {new Date().getFullYear()}
-                Made With <i className="fa fa-heart"> </i> By AJ{" "}
-              </p>{" "}
+            <p className="copyright-text">
+  {new Date().getFullYear()}&nbsp; {/* Add a non-breaking space after the year */}
+  Made With <ion-icon name="heart"></ion-icon> By AJ
+</p>
             </div>{" "}
           </div>{" "}
         </div>{" "}

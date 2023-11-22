@@ -8,51 +8,35 @@ class Services extends Component {
     let data = [
       {
         pageLink: "service-details-left-sidebar",
-        img: "service1.jpg",
+        img: "service-1.jpeg",
         iconClass: "flaticon-002-welding",
-        serviceTitle: "Land Minning",
+        serviceTitle: "Budgeting and Cost Control",
         serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
+          "Estimating project costs, budget allocation, and monitoring expenses throughout the project lifecycle",
       },
       {
         pageLink: "service-details-left-sidebar",
-        img: "service2.jpg",
+        img: "service-2.jpeg",
         iconClass: "flaticon-004-walkie-talkie",
-        serviceTitle: "Work Management",
+        serviceTitle: "Resource Allocation and Management",
         serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
+          "Assigning tasks to team members, optimizing resource utilization, and handling workload distribution.",
       },
       {
         pageLink: "service-details-left-sidebar",
         img: "service3.jpg",
         iconClass: "flaticon-015-cart",
-        serviceTitle: "Material Engineering",
+        serviceTitle: "Project Portfolio Management",
         serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
+          "Overseeing multiple projects and prioritizing resources across the portfolio.",
       },
       {
         pageLink: "service-details-left-sidebar",
-        img: "service-3.jpg",
+        img: "service-3.png",
         iconClass: "flaticon-010-tank-1",
-        serviceTitle: "Power and Energy",
+        serviceTitle: "Communication and Stakeholder Management",
         serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
-      },
-      {
-        pageLink: "service-details-left-sidebar",
-        img: "service-2.jpg",
-        iconClass: "flaticon-004-walkie-talkie",
-        serviceTitle: "Land Minning",
-        serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
-      },
-      {
-        pageLink: "service-details-left-sidebar",
-        img: "service-1.jpg",
-        iconClass: "flaticon-002-welding",
-        serviceTitle: "Work Management",
-        serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor",
+          "Establishing effective communication channels with stakeholders and managing expectations.",
       },
     ];
 
@@ -73,9 +57,9 @@ class Services extends Component {
                   />
                 </a>
               </div>
-              <div className="icon">
+              {/* <div className="icon">
                 <i className={val.iconClass} />
-              </div>
+              </div> */}
             </div>
             <div className="service-grid-item__content">
               <h3 className="title">
@@ -147,7 +131,7 @@ class Services extends Component {
         {/*====================  End of service page content  ====================*/}
 
         {/* Brand logo */}
-        <BrandLogoSlider background="grey-bg" />
+        {/* <BrandLogoSlider background="grey-bg" /> */}
 
         {/* Footer */}
         <Footer />

@@ -28,13 +28,11 @@ class VideoCta extends Component {
                   <h4 className="video-cta-content__small-title"> ABOUT US </h4>{" "}
                   <h3 className="video-cta-content__title">
                     {" "}
-                    We are Best construction in the world{" "}
+                    Unrivaled Excellence Worldwide{" "}
                   </h3>{" "}
                   <p className="video-cta-content__text">
                     {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.Ut enim ad minim{" "}
+                    Our experienced team specializes in expert project management, ready to guide your ventures to new heights{" "}
                   </p>{" "}
                   <a
                     href={`/contact-us`}
@@ -47,7 +45,7 @@ class VideoCta extends Component {
               <div className="col-lg-5 offset-lg-1 col-md-6">
                 <div className="cta-video-image">
                   <div className="video-popup">
-                    <ModalVideo
+                    {/* <ModalVideo
                       channel="youtube"
                       isOpen={this.state.isOpen}
                       videoId="OrS-93U4AYQ"
@@ -56,7 +54,7 @@ class VideoCta extends Component {
                           isOpen: false,
                         })
                       }
-                    />{" "}
+                    />{" "} */}
                     <button onClick={this.openModal}>
                       <div className="cta-video-image__image">
                         <img
@@ -65,9 +63,9 @@ class VideoCta extends Component {
                           alt=""
                         />
                       </div>{" "}
-                      <div className="cta-video-image__icon">
+                      {/* <div className="cta-video-image__icon">
                         <i className="ion-ios-play" />
-                      </div>{" "}
+                      </div>{" "} */}
                     </button>{" "}
                   </div>{" "}
                 </div>{" "}

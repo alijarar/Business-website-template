@@ -62,34 +62,33 @@ class About extends Component {
                   <div className="about-image-two">
                     <img src="assets/img/about/about-3.jpg" alt="" />
                     <span className="video-popup">
-                      <ModalVideo
+                      {/* <ModalVideo
                         channel="youtube"
                         isOpen={this.state.isOpen}
                         videoId="OrS-93U4AYQ"
                         onClose={() => this.setState({ isOpen: false })}
-                      />
-                      <button onClick={this.openModal}>
+                      /> */}
+                      {/* <button onClick={this.openModal}>
                         <i className="ion-ios-play-outline" />
-                      </button>
+                      </button> */}
                     </span>
                   </div>
                 </div>
                 <div className="col-lg-6 col-12 mb-30">
                   <div className="about-content-two">
-                    <h3>Welcome to [Company]</h3>
-                    <h1>50 Years of Experience in Industry</h1>
+                    <h3>Welcome to SALMAN PROJECT MANAGEMENT SERVICES EST</h3>
+                    <h1>Excellence in Project Management</h1>
                     <h4>
-                      We are ready to build your dream home Lorem ipsum dolor
-                      sit amet, consectetur adipisicing elit. Dolorum, beatae.
+                      Welcome to SALMAN PROJECT MANAGEMENT SERVICES EST, where
+                      we bring years of industry-leading experience to your
+                      project management needs. We're not just building
+                      projects; we're crafting success stories
                     </h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Ipsam repudiandae odit dolorum quis laudantium impedit
-                      beatae perferendis natus, hic libero sed atque quibusdam
-                      possimus error, voluptate est molestiae doloremque
-                      necessitatibus illum rerum sunt! Ad sunt obcaecati
-                      voluptatem sint sequi quos, qui non deleniti a
-                      praesentium, sapiente accusantium odit.
+                      we're prepared to turn your project dreams into reality.
+                      With a commitment to excellence and a wealth of expertise,
+                      we navigate the complexities of project management with
+                      finesse
                     </p>
                     <a
                       href="services"
@@ -123,27 +122,37 @@ class About extends Component {
                 </div>
                 <div className="col-lg-6 col-12 order-3 order-lg-1">
                   <div className="about-content about-content-1">
-                    <h1>
+                    {/* <h1>
                       <span>50</span>Years of Experience
-                    </h1>
+                    </h1> */}
                     <p>
-                      ligendi optio cumque nihil impedit quo minus id quod
-                      maxime placeat facere possimus, omnis voluptas assumenda
-                      est, omnis dolor ellendus. Temporibus autem quibusdam et
-                      aut officiis debitis aut rerum atibus saepe eveniet ut et
-                      voluptates repudiandae sint et molestiae
+                      At SALMAN PROJECT MANAGEMENT
+                      SERVICES EST, we pride ourselves on being the
+                      driving force behind successful projects. With a legacy of
+                      excellence spanning years, we have established
+                      ourselves as a trusted leader in the field of project
+                      management. Our journey is fueled by a passion for turning
+                      visions into reality and a commitment to delivering
+                      exceptional results. We understand that each project is
+                      unique, and our dedicated team of professionals is adept
+                      at tailoring solutions to meet the specific needs of our
+                      clients.
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6 col-12 order-4">
                   <div className="about-content about-content-2">
                     <p>
-                      ligendi optio cumque nihil impedit quo minus id quod
-                      maxime placeat facere possimus, omnis voluptas assumenda
-                      est, omnis dolor ellendus. Temporibus autem quibusdam et
-                      aut officiis debitis aut rerum atibus saepe eveniet ut et
-                      voluptates repudiandae sint et molestiae non recusandae.
-                      Itaque earum rerum hic tenetur a sapie
+                      What sets us apart is our unwavering dedication to client
+                      satisfaction and our holistic approach to project
+                      management. From inception to completion, we provide
+                      comprehensive services that encompass strategic planning,
+                      meticulous execution, and seamless delivery. Our team of
+                      experienced project managers is not just focused on
+                      meeting expectations but exceeding them. We prioritize
+                      communication, collaboration, and transparency, ensuring
+                      that our clients are well-informed and confident at every
+                      stage of their project.
                     </p>
                     <a
                       href={`/contact-us`}
@@ -159,16 +168,16 @@ class About extends Component {
           {/*About section end*/}
 
           {/* Fun fact */}
-          <Funfact />
+          {/* <Funfact /> */}
 
           {/* Team member */}
-          <TeamMemberGrid />
+          {/* <TeamMemberGrid /> */}
 
           {/* Testimonial Slider */}
-          <TestimonialSlider />
+          {/* <TestimonialSlider /> */}
 
           {/* Brand logo */}
-          <BrandLogoSlider background="" />
+          {/* <BrandLogoSlider background="" /> */}
         </div>
 
         {/* Footer */}

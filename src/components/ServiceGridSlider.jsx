@@ -26,10 +26,10 @@ class ServiceGridSlider extends Component{
             }
         }
         let data = [
-            {img: 'service1.jpg', iconName: 'flaticon-002-welding', serviceTitle: 'Land Minning', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service2.jpg', iconName: 'flaticon-004-walkie-talkie', serviceTitle: 'Work Management', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service3.jpg', iconName: 'flaticon-015-cart', serviceTitle: 'Material Engineering', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'Power and Energy', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service-1.jpeg', iconName: 'flaticon-002-welding', serviceTitle: 'Budgeting and Cost Control', serviceExcerpt: 'Estimating project costs, budget allocation, and monitoring expenses throughout the project lifecycle', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service-2.jpeg', iconName: 'flaticon-004-walkie-talkie', serviceTitle: 'Resource Allocation and Management', serviceExcerpt: 'Assigning tasks to team members, optimizing resource utilization, and handling workload distribution.', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service3.jpg', iconName: 'flaticon-015-cart', serviceTitle: 'Project Portfolio Management', serviceExcerpt: 'Overseeing multiple projects and prioritizing resources across the portfolio.', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service-3.png', iconName: 'flaticon-010-tank-1', serviceTitle: 'Communication and Stakeholder Management', serviceExcerpt: 'Establishing effective communication channels with stakeholders and managing expectations.', serviceUrl: 'service-details-left-sidebar'},
         ];
 
         let DataList = data.map((val, i)=>{
@@ -43,9 +43,9 @@ class ServiceGridSlider extends Component{
                                 <img src={`assets/img/service/${val.img}`} className="img-fluid" alt="" />
                             </a>
                             </div>
-                            <div className="icon">
+                            {/* <div className="icon">
                             <i className={val.iconName} />
-                            </div>
+                            </div> */}
                         </div>
                         <div className="service-grid-item__content">
                             <h3 className="title">

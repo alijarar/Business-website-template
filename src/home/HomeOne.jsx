@@ -24,25 +24,25 @@ const HomeOne = () => {
       <ServiceGridSlider />
 
       {/* Fun fact */}
-      <Funfact />
+      {/* <Funfact /> */}
 
       {/* Video CTA */}
       <VideoCta />
 
       {/* Project Slider */}
-      <ProjectSlider />
+      {/* <ProjectSlider /> */}
 
       {/* Team job */}
-      <TeamJob />
+      {/* <TeamJob /> */}
 
       {/* Testimonial Slider */}
-      <TestimonialSlider />
+      {/* <TestimonialSlider /> */}
 
       {/* Blog grid */}
-      <BlogGrid background="grey-bg" />
+      {/* <BlogGrid background="grey-bg" /> */}
 
       {/* Brand logo */}
-      <BrandLogoSlider />
+      {/* <BrandLogoSlider /> */}
 
       {/* Footer */}
       <Footer />

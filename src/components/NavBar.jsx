@@ -62,7 +62,7 @@ class NavBar extends Component {
                     {" "}
                     {/* top bar left */}{" "}
                     <div className="top-bar-left-wrapper">
-                      <div className="social-links social-links--white-topbar d-inline-block">
+                      {/* <div className="social-links social-links--white-topbar d-inline-block">
                         <ul>
                           <li>
                             {" "}
@@ -100,7 +100,7 @@ class NavBar extends Component {
                             </a>
                           </li>
                         </ul>{" "}
-                      </div>{" "}
+                      </div>{" "} */}
                     </div>{" "}
                   </div>{" "}
                   <div className="col-lg-8">
@@ -131,7 +131,7 @@ class NavBar extends Component {
                       <div className="logo">
                         <Link to={`/home-one`}>
                           <img
-                            src="assets/img/logo/logo.png"
+                            src="assets/img/logo/logo-no-background.png"
                             className="img-fluid"
                             alt="Logo"
                           />
@@ -150,7 +150,7 @@ class NavBar extends Component {
                             </h6>{" "}
                             <p className="header-info-single-item__subtitle">
                               {" "}
-                              98 9875 5968 54{" "}
+                              +971 52 551924741{" "}
                             </p>{" "}
                           </div>{" "}
                         </div>{" "}
@@ -165,7 +165,7 @@ class NavBar extends Component {
                             </h6>{" "}
                             <p className="header-info-single-item__subtitle">
                               {" "}
-                              your address goes here{" "}
+                              Office 406, Al Baraha JESCO, DUBAI-UAE{" "}
                             </p>{" "}
                           </div>{" "}
                         </div>{" "}
@@ -198,37 +198,9 @@ class NavBar extends Component {
                             <li className="has-children has-children--multilevel-submenu">
                               <Link to={`/home-one`}>
                                 {" "}
-                                HOME{" "}
+                                HOME
+                                {/* {'\u00a0'}{<ion-icon name="chevron-down-outline"></ion-icon>} */}
                               </Link>{" "}
-                              <ul className="submenu">
-                                <li>
-                                  {" "}
-                                  <Link
-                                    to={`/home-one`}
-                                  >
-                                    {" "}
-                                    Homepage One{" "}
-                                  </Link>
-                                </li>
-                                <li>
-                                  {" "}
-                                  <Link
-                                    to={`/home-two`}
-                                  >
-                                    {" "}
-                                    Homepage Two{" "}
-                                  </Link>
-                                </li>
-                                <li>
-                                  {" "}
-                                  <Link
-                                    to={`/home-three`}
-                                  >
-                                    {" "}
-                                    Homepage Three{" "}
-                                  </Link>
-                                </li>
-                              </ul>{" "}
                             </li>{" "}
                             <li>
                               {" "}
@@ -242,7 +214,7 @@ class NavBar extends Component {
                                 {" "}
                                 SERVICE{" "}
                               </Link>{" "}
-                              <ul className="submenu">
+                              {/* <ul className="submenu">
                                 <li>
                                   {" "}
                                   <Link
@@ -270,9 +242,9 @@ class NavBar extends Component {
                                     Service Details Right Sidebar{" "}
                                   </Link>
                                 </li>
-                              </ul>{" "}
+                              </ul>{" "} */}
                             </li>{" "}
-                            <li className="has-children has-children--multilevel-submenu">
+                            {/* <li className="has-children has-children--multilevel-submenu">
                               <Link to={`/projects`}>
                                 {" "}
                                 PROJECT{" "}
@@ -297,8 +269,8 @@ class NavBar extends Component {
                                   </Link>
                                 </li>
                               </ul>{" "}
-                            </li>{" "}
-                            <li className="has-children has-children--multilevel-submenu">
+                            </li>{" "} */}
+                            {/* <li className="has-children has-children--multilevel-submenu">
                               <Link
                                 to={`/blog-left-sidebar`}
                               >
@@ -343,7 +315,7 @@ class NavBar extends Component {
                                   </Link>
                                 </li>
                               </ul>{" "}
-                            </li>{" "}
+                            </li>{" "} */}
                             <li>
                               {" "}
                               <Link to={`/contact-us`}>

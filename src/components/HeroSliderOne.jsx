@@ -15,24 +15,24 @@ class HeroSliderOne extends Component {
 
     let data = [
       {
-        bgImg: "slider3.jpg",
-        sliderTitle: "Build Your Dream With Passion",
+        bgImg: "slider-3.jpg",
+        sliderTitle: "Empower Your Projects",
         sliderSubtitle:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.",
+          "Unleash your creativity and drive success with our comprehensive project management tools",
         btnLink: "contact-us",
       },
       {
-        bgImg: "slider2.jpg",
-        sliderTitle: "Build Your Dream With Passion",
+        bgImg: "slider-2.jpg",
+        sliderTitle: "Collaborate Seamlessly",
         sliderSubtitle:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.",
+          "Join forces with our intuitive project management platform to streamline communication and boost productivity.",
         btnLink: "contact-us",
       },
       {
-        bgImg: "slider1.jpg",
-        sliderTitle: "Build Your Dream With Passion",
+        bgImg: "slider-1.jpg",
+        sliderTitle: "Innovate, Organize, Succeed",
         sliderSubtitle:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.",
+          " Innovate your projects, organize your tasks, and achieve unparalleled success",
         btnLink: "contact-us",
       },
     ];
